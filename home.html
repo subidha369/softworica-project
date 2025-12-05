@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="h-20 w-100vr bg-white-50 flex justify-evenly  items-center  gap-14 shadow-xl">
+            <div class="h-20 w-60 mt-5  ">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class=" text-xl   ">
+                <nav class="gap-9 flex items-center ">
+                    <a href="home" class="block  no-underline py-3 hover:border-b-2 border-indigo-600">
+                        Home
+                    </a>
+
+                    <div class=" block no-underline py-3 hover:border-b-2 border-indigo-600"> <a
+                            href="service">Service</a>
+                    </div>
+                    <div class=" block no-underline py-3 hover:border-b-2 border-indigo-600 "> <a
+                            href="training">Training</a>
+                    </div>
+                    <div class=" block no-underline py-3 hover:border-b-2 border-indigo-600"> <a href="About Us">About
+                            Us</a>
+                    </div>
+                    <div class=" block no-underline py-3 hover:border-b-2 border-indigo-600"> <a href="Blog">Blog</a>
+                    </div>
+                    <div class=" block no-underline py-3 hover:border-b-2 border-indigo-600"> <a
+                            href="Contact">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <button class=" h-6 bg-blue-600 px-6 py-6 rounded-xl text-white text-center font-bold flex items-center">Get
+                Quota</button>
+        </div>
+    </header>
+    <div class="flex flex-col gap-16 ">
+        <div class=" flex flex-col items-center mt-20 gap-6">
+            <div class=" flex text-bold">
+                <h1 class="font-bold text-4xl">Our Blog</h1>
+            </div>
+            <div class="">
+                <p>Insights, tutorials, and updates from the world of technology</p>
+            </div>
+        </div>
+        <div class="mt-20 flex justify-center gap-14 px=10 rounded-xl bg-white-900 font-bold">
+            <button
+                class=" h-8 bg-blue-50 hover:bg-green-50 hover:text-white cursor-pointer py-2 px-2 rounded-sm text-black ">Web
+                development</button>
+            <button
+                class=" h-8 bg-blue-50 hover:bg-grey-500 hover:text-white cursor-pointer py-2 px-2 rounded-sm text-black">Mobile
+                Apps</button>
+            <button
+                class=" h-8 bg-blue-50 hover:bg-grey-500 hover:text-white cursor-pointer py-2 px-2 rounded-sm text-black">Digital
+                Marketing</button>
+            <button
+                class=" h-8 bg-blue-50 hover:bg-grey-500 hover:text-white cursor-pointer py-2 px-2 rounded-sm text-black">Tutorial</button>
+            <button
+                class=" h-8 bg-blue-50  hover:bg-grey-500 hover:text-white cursor-pointer py-2 px-2 rounded-sm text-black">Tech
+                News</button>
+        </div>
+    </div>
+    <section class=" m-32">
+        <div class=" flex gap-12 shadow-2xl bg-blue-50 rounded-xl ">
+            <div class="   w-1/2">
+                <img class="h-full bg-center bg-cover rounded-s-lg" src="./image/Screenshot 2025-11-30 191223.png"
+                    alt="">
+            </div>
+
+            <div class=" w-1/2">
+                <h5 class="text-blue-700 bg-white-300 rounded-xl w-40"> Web development</h5>
+                <div>
+                    <h1 class="font-bold text-4xl mt-14 ">Building Modern Web <br>
+                        Applications with React <br>
+                        and Laravel</h1>
+                </div>
+                <div>
+                    <p class="mt-10 leading-6 text-gray-600">Discover how to create powerful full-stack web
+                        applications by combining React's dynamic frontend
+                        capabilities with Laravel's robust backend framework. This
+                        comprehensive guide covers everything from setup to deployment.</p>
+                </div>
+                <div class=" mt-5 text-gray-500">
+                    <i class="fa-solid fa-calendar"></i> 1,2025
+                    <i class="fa-solid fa-user ml-5"></i>Student Project
+                    <i class="fa-solid fa-clock ml-5"></i>10 min read
+                </div>
+                <button class=" h-8 w-48 bg-blue-600  py-6 px-8 rounded-xl text-white flex items-center mt-10 mb-18 ">
+                    Read Full Article </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 
+    <div class="p-20 flex gap-6   ">
+        <div class="  rounded-xl shadow-4xl  hover:scale-110 transition-transform duration-300">
+            <div class=" "> <img class=" h-60 w-full " src="./image/photo.jffffffff.jfif" alt=""></div>
+            <div class="text-sm">
+                <i class="fa-solid fa-calendar"></i> 1,2025
+                <i class="fa-solid fa-clock"></i>5 min read
+            </div>
+
+            <div class="flex flex-col gap-6 ">
+                <div>
+                    <h2 class="font-bold text-xl ">Top Web Development Trends <br> in 2025</h2>
+                </div>
+                <p>Stay ahead of the curve with the latest web <br>
+                    development trends shaping the industry <br>
+                    this year. From AI integration to progressive <br>
+                    web apps.</p>
+                <div class="flex gap-3 text-blue-700">
+                    <h5 class="text-blue-700 font-bold">Read More</h5><i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-6   rounded-xl shadow-4xl hover:scale-110 transition-transform duration-300">
+            <div class=""> <img class="h-60 w-full" src="./photo.jfif" alt=""></div>
+            <div class="text-sm ">
+                <i class="fa-solid fa-calendar"></i> 1,2025
+                <i class="fa-solid fa-clock"></i>5 min read
+            </div>
+            <div class="flex flex-col gap-6  ">
+                <h2 class="font-bold text-xl ">Cross-Platform Mobile App <br> Development Guide</h2>
+                <p>Step-by-step guide to implementing user <br>
+                    authentication in Laravel. Includes <br>
+                    registration, login, password reset, and <br>
+                    more.</p>
+                <div class="flex gap-3 text-blue-700">
+                    <h5 class="text-blue-700 font-bold"> Read More</h5> <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <div class="flex gap-6">
+        <div class="">
+
+
+
+            <div class="flex">
+                <div
+                    class="w-92 bg-white-200 rounded-lg mt-10 ml-24 shadow-2xl hover:scale-105 transition-transform duration-300 ">
+                    <div class=" h-48 bg-gray-700 rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&q=92"
+                            class="bg-center object-cover w-full h-full rounded-t-lg " alt="">
+
+                    </div>
+                    <div class="content py-6  px-3 ">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar "></i>Dec 1,2025
+                            <i class="fa-solid fa-clock"></i>5 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Top Web Development Trends in 2025</h1>
+                        <p class="text-gray-600">
+                            Stay ahead of the curve with the latest web development trends shaping the
+                            industry this year. From AI integration to progressive web apps.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+
+
+                <div
+                    class="w-92  bg-white-200  rounded-lg mt-10 ml-7 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class=" h-48 bg-white-200  rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&q=92"
+                            class="bg-center object-cover w-full h-full  rounded-t-lg" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Dec 2,2025
+                            <i class="fa-solid fa-clock"></i>7 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Cross-Platform Mobile App Development Guide</h1>
+                        <p class="text-gray-600">
+                            Learn how to build apps for both iOS and Android using React Native and Flutter.
+                            Save time and resources with cross-platform development.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div
+                    class="w-92  bg-white-200  rounded-lg mt-10 ml-24 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class=" h-48 bg-gray-700 rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=92"
+                            class="bg-center object-cover w-full h-full rounded-t-lg" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 21,2025
+                            <i class="fa-solid fa-clock"></i>6 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Digital Marketing for Nepali Businesses</h1>
+                        <p class="text-gray-600">
+                            Effective digital marketing strategies tailored for the Nepali market. Learn how to reach
+                            your
+                            target audience and grow your business online.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+                <div
+                    class="w-92  bg-white-200  rounded-lg mt-10 ml-7 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class=" h-48 bg-gray-700 rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&q=92"
+                            class="bg-center object-cover w-full h-full rounded-t-lg" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 18,2025
+                            <i class="fa-solid fa-clock"></i>12 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Laravel Authentication Tutorial for Beginners</h1>
+                        <p class="text-gray-600">
+                            Step-by-step guide to implementing user authentication in Laravel. Includes
+                            registration, login, password reset, and more.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div
+                    class="w-92  bg-white-200  rounded-lg mt-10 ml-24 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class=" h-48 bg-gray-700 rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400&q=92"
+                            class="bg-center object-cover w-full h-full rounded-t-lg" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 14,2025
+                            <i class="fa-solid fa-clock"></i>8 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Modern JavaScript Features You Should Know</h1>
+                        <p class="text-gray-600">
+                            Explore the latest JavaScript features including async/await, destructuring, spread
+                            operators,
+                            and ES6+ enhancements.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="w-92  bg-white-200  rounded-lg mt-10 ml-7 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class=" h-48  bg-gray-700 rounded-t-lg">
+                        <img src="https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=400&q=80"
+                            class="bg-center object-cover w-full h-full rounded-t-lg" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 10,2025
+                            <i class="fa-solid fa-clock"></i>15 min
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Building Your First React App: Complete Guide</h1>
+                        <p class="text-gray-600">
+                            A beginner-friendly tutorial to create your first React application. Learn components
+                            , state, props, and hooks from scratch.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div
+                    class="w-92 py-6  px-3 bg-white-200  rounded-lg mt-10 ml-24 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class="w-76 h-48 bg-gray-700">
+                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&q=92"
+                            class="bg-center object-cover w-full h-full" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3 ">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 6,2025
+                            <i class="fa-solid fa-clock"></i>4 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">Nepal's Growing Tech Industry: Opportunities Ahead</h1>
+                        <p class="text-gray-600">
+                            Analysis of Nepal's technology sector growth and the emerging opportunities for
+                            IT professionals and businesses.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="w-92 py-6  px-3 bg-white-200  rounded-lg mt-10 ml-7 shadow-2xl hover:scale-105 transition-transform duration-300">
+                    <div class="w-76 h-48 bg-gray-700">
+                        <img src="https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=400&q=92"
+                            class="bg-center object-cover w-full h-full" alt="">
+
+                    </div>
+                    <div class="content py-6  px-3 ">
+                        <div class="text-gray-500">
+                            <i class="fa-solid fa-calendar"></i>Nov 3,2025
+                            <i class="fa-solid fa-clock"></i>9 min read
+                        </div>
+                        <h1 class="font-bold text-xl my-3">SEO Best Practices for 2025</h1>
+                        <p class="text-gray-600">
+                            Improve your website's search engine rankings with these proven SEO strategies and
+                            techniques
+                            for
+                            2025.
+                        </p>
+                        <p class="text-blue-700 font-semibold my-3"> Read More <i
+                                class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="w-92  py-6  px-3 bg-white-200  rounded-lg mt-10 ml-24 shadow-2xl hover:scale-105 transition-transform duration-300">
+                <div class="w-76 h-48 bg-gray-700">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=92"
+                        class="bg-center object-cover w-full h-full" alt="">
+
+                </div>
+                <div class="content py-4  px-3 ">
+                    <div class="text-gray-500">
+                        <i class="fa-solid fa-calendar"></i>Nov 1,2025
+                        <i class="fa-solid fa-clock"></i>6 min read
+                    </div>
+                    <h1 class="font-bold text-xl my-3">Mobile App UI/UX Design Principles</h1>
+                    <p class="text-gray-600">
+                        Essential design principles to create user-friendly and visually appealing mobile
+                        applications that users love.
+                    </p>
+                    <p class="text-blue-700 font-semibold my-3"> Read More <i
+                            class="fa-solid fa-arrow-right text-blue-700 "></i></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div>
+            <div class="w-80 h-38 bg-white-300 mt-20 rounded-lg shadow-2xl ">
+                <h1 class="font-bold text-xl py-6 px-6">Search</h1>
+                <input class="py-3 border-2 rounded-lg px-4 ml-5" type="text" placeholder="Search aticles..">
+            </div>
+
+            <div class="w-80  bg-white-300 mt-8 py-5 px-5 rounded-lg shadow-2xl">
+                <h1 class="font-bold text-xl py-6 ">Popular posts</h1>
+
+                <div class=" flex h-20 mt-4 shadow-1xl hover:px-1">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=80&q=80" alt=""
+                        class=" rounded-lg h-full w-20">
+                    <div class=" px-2">
+                        <h3 class="font-bold">Getting started with laravel 11</h3>
+                        <i class="fa-solid fa-calendar text-sm"></i>Nov 16,2025
+
+                    </div>
+                </div>
+                <div class=" flex h-20 mt-4 shadow-1xl hover:px-1">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=80&q=80" alt=""
+                        class=" rounded-lg h-full w-20">
+                    <div class=" px-1">
+                        <h3 class="font-bold">python for data Science</h3>
+                        <i class="fa-solid fa-calendar text-sm"></i>Nov 11,2025
+
+                    </div>
+                </div>
+                <div class=" flex h-20 mt-4 shadow-1xl hover:px-1">
+                    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=80&q=80" alt=""
+                        class=" rounded-lg h-full w-20">
+                    <div class=" px-2">
+                        <h3 class="font-bold">React Hooks Explained</h3>
+                        <i class="fa-solid fa-calendar text-sm"></i>Nov 1,2025
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-80  bg-white-300 mt-10 py-3 px-1 rounded-lg shadow-2xl ">
+                <h1 class="font-bold text-xl ml-7 py-3 ">Tags</h1>
+                <button class="bg-gray-100 ml-7 mt-5 rounded-lg hover:bg-blue-700 hover:text-white">React</button>
+                <button class="bg-gray-100 ml-7  rounded-lg hover:bg-blue-700 hover:text-white">Laravel</button>
+                <button class="bg-gray-100 ml-7  rounded-lg hover:bg-blue-700 hover:text-white">javascript</button>
+                <button class="bg-gray-100 ml-7  rounded-lg hover:bg-blue-700 hover:text-white">python</button>
+                <button class="bg-gray-100 ml-7 mt-5  rounded-lg hover:bg-blue-700 hover:text-white">Php</button>
+                <button class="bg-gray-100 ml-7  rounded-lg hover:bg-blue-700 hover:text-white">SEO</button>
+                <button class="bg-gray-100 ml-7  mt-5 rounded-lg hover:bg-blue-700 hover:text-white">Mobile APP</button>
+                <button class="bg-gray-100 ml-7  rounded-lg hover:bg-blue-700 hover:text-white">UI/UX</button>
+                <button class="bg-gray-100 ml-7 mt-5  rounded-lg hover:bg-blue-700 hover:text-white">Web
+                    Development</button>
+                <button class="bg-gray-100 ml-5 mt-5  mb-4 rounded-lg hover:bg-blue-700 hover:text-white"> Digital
+                    Marketing</button>
+
+            </div>
+            <div class="w-80 h-60 bg-white-300 mt-10 rounded-lg shadow-2xl">
+                <h1 class="font-bold text-xl ml-7 py-3 ">Newsletter</h1>
+                <p class="ml-7 py-3"> Subscribe to get the latest articles and updates.</p>
+                <input class="py-3 border-2 rounded-lg px-4 ml-5 " type="email" placeholder="Your email..">
+                <div class="hover:">
+                    <button class=" mt-4 ml-5 px-18  py-2 rounded-lg text-blue-800 font-semibold text-sm shadow-xl/30">
+                        Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer  >
+        <div class=" bg-slate-9009  ">
+            <div class="  mt-14 flex gap-16">
+                <div class=" w-[600px] ml-24 pt-16">
+                    <img src="./image/logo.png" alt="" class=" w-64   ">
+                    <h3 class="text-blue-600 mt-6 text-xl font-semibold">Your Future, Our Framework</h3>
+                    <p class="text-gray-400 mt-8 text-x">Softworica is Nepal's leading IT solutions provider,
+                        specializing in web
+                        development,
+                        mobile applications, custom software, and digital marketing. We combine innovation
+                        with expertise to deliver exceptional technology solutions that drive business growth.
+                    </p>
+                    <div class="  ">
+                        <i class="fa-brands fa-facebook text-gray-400 hover:bg-blue-600 p-4  rounded-full"></i>
+                        <i class="fa-brands fa-instagram text-gray-400 hover:bg-blue-600 p-4 rounded-full"></i>
+                        <i class="fa-brands fa-linkedin text-gray-400 hover:bg-blue-600"></i>
+                        <i class="fa-brands fa-twitter text-gray-400 hover:bg-blue-600"></i>
+                        <i class="fa-brands fa-github text-gray-400 hover:bg-blue-600"></i>
+                    </div>
+                </div>
+                <div class="pt-16 w-[200px] ">
+                    <h3 class="text-white text-xl font-semibold">Development Services</h3>
+                    <p class="text-gray-400 text-x py-2 mt-4"> <i class="fa-solid fa-chevron-right "> </i> Web
+                        Development
+                    </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Mobile App
+                        Development </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Software
+                        Development </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> E-Commerce
+                        Solutions </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> API Development
+                    </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> CMS Development
+                    </p>
+                </div>
+                <div class="pt-16">
+                    <h3 class="text-white text-xl font-semibold">Marketing and Support</h3>
+                    <p class="text-gray-400 text-x py-1 mt-4"> <i class="fa-solid fa-chevron-right "> </i> Digital
+                        Marketing
+                    </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> Social Media
+                        Support </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i>SEO Services </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> Brand Strategy
+                    </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i>Maintenance and
+                        Support </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> IT Consulting
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex gap-32 ml-24">
+                <div class="pt-16 ">
+                    <h3 class="text-white text-xl font-semibold">Development Services</h3>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Training Programs
+                    </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Web Development
+                        Course </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Laravel Framework
+                    </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> React.js Training
+                    </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Python
+                        Programming </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Mobile App
+                        Development </p>
+                    <p class="text-gray-400 text-x py-2"> <i class="fa-solid fa-chevron-right "> </i> Software
+                        Engineering </p>
+                </div>
+                <div class="pt-16 ml-24">
+                    <h3 class="text-white text-xl font-semibold">Company </h3>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> About Us
+                    </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> Our Team </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i>careers </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i> Blog
+                    </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i>Contact Us </p>
+                    <p class="text-gray-400 text-x py-1"> <i class="fa-solid fa-chevron-right "> </i>Get a Quota
+                    </p>
+                </div>
+                <div class="pt-16">
+                    <h3 class="text-white text-xl font-semibold">contact Us </h3>
+                    <p class=" text-white text-x py-1 text-bold"> <i class="fa-solid fa-location-dot "> </i> Address
+                    </p>
+                    <p class="text-gray-400 text-x py-1 px-4">  Kawasoti-2, </p>
+                    <p class="text-gray-400 text-x py-1  px-4"> Nawalparasi </p>
+                    <p class="text-gray-400 text-x py-1  px-4"> Nepal</p>
+                    <p class=" text-white text-x py-1 text-bold"> <i class="fa-solid fa-phone "> </i> Phone
+                    </p>
+                    <p class="text-gray-400 text-x py-1  px-4"> 6456763573 </p>
+                    <p class=" text-white text-x py-1 text-bold"> <i class="fa-solid fa-message "> </i> Email:
+                    </p>
+                    <p class="text-gray-400 text-x py-1  px-4"> hello@softwarica.com </p>
+                    <p class=" text-white text-x py-1 text-bold"> <i class="fa-solid fa-clock".></i> </i> Hours:
+                    </p>
+                    <p class="text-gray-400 text-x py-1  px-4"> Sun - Fri: 9AM - 6PM </p>
+                </div>
+            </div>
+            <div class=" ml-24 flex gap-99 py-6 border-t border-white mt-6  mr-24  ">
+                <p class="text-gray-400">© 2025 Softworica. All rights reserved.</p>
+                <div class=" flex gap-12">
+                <p class="text-gray-400 ml-32">Privacy Policy</p>
+                <p class="text-gray-400">Terms of Service</p>
+                <p class="text-gray-400">Sitemap</p>
+                  </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

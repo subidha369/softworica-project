@@ -1,0 +1,23 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+
+.box{ 
+    height: 50vh;
+    background-color: aqua;
+ display: flex;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+ @media  screen and (min-width:179px) and (max-width:1179px){
+    .box{
+        flex-wrap: wrap;
+    }
+ }
+    
+ 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box"> hello subi</div>
+    <div class="box"> your are beautiful</div>
+    <div class="box"> your are cute</div>
+
+    <p>magic</p>
+    <p>okayy</p>
+
+
+
+
+    <script>
+        const box = document.getElementById('box')
+        console.log(box.innerText);
+
+        const classBox = document.getElementsByClassName('box')
+        console.log(classBox[1].innerText);
+
+        const para = document.getElementsByTagName('p')
+        console.log(para[0].innerText)
+        const fPara = document.querySelector('p')
+        console.log("vlue", fPara.innerText)
+        const allPara = document.querySelectorAll('p');
+        console.log("vlue", fPara.innerText)
+
+        box.innerHTML = 'this is <br> content'
+        box.innerText = "this is <br> content"
+        classBox.classList.remove("active");
+        document.getElementById("box").style.color = "red"
+        classBox[0].style.fontSize = '100px'
+
+
+
+
+
+    </script>
+</body>
+
+</html>

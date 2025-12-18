@@ -11,13 +11,34 @@
     <button id="box">click me</button>
     <script>
         const box = document.getElementById("box");
-        // box.addEventListener("click", function{
-        //     console.log("button is clicked");
+        box.addEventListener("click", function () {
+            console.log("button is clicked");
 
-        // })
-        box.addEventListener("dblclick", function() {
+        })
+        box.addEventListener("dblclick", function () {
             alert("button is doubleclick clicked");
 
+        })
+        box.addEventListener("mouseover", function () {
+            alert("mouse over is happen");
+
+        })
+         box.addEventListener("mouseout", function () {
+            alert("mouseout is happen");
+
+        })
+        box.addEventListener("keydown", function () {
+            console.log("keydown is done");
+
+        })
+        box.addEventListener("keyup", function () {
+            console.log("keyup is done");
+        })
+        box.addEventListener("submit", function () {
+            alert("submit is done");
+        })
+        box.addEventListener("input", function () {
+            console.log("input is done");
         })
     </script>
 

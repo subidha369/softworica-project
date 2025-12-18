@@ -8,15 +8,37 @@
 </head>
 
 <body>
+    <div>
+        Today Date is <span id="date"></span> <br><br>
+        Today Time is <span id="time"></span>
+    </div>
     <script>
-        let d = new Date();
+        function showDate() {
 
-        console.log(" fullyear", d.getFullYear())
-        console.log(" month",d.getMonth()+1);
-        console.log( " date",d.getDate());
-        console.log( " hours",d.getHours());
-        console.log( "minutes",d.getMinutes());
-        console.log(" seconds",d.getSeconds());
+            let d = new Date();
+            console.log(" fullyear", d.getFullYear())
+            console.log(" month", d.getMonth() + 1);
+            console.log(" date", d.getDate());
+            console.log(" hours", d.getHours());
+            console.log("minutes", d.getMinutes());
+            console.log(" seconds", d.getSeconds());
+
+
+            document.getElementById("date").innerHTML = `${d.getFullYear()}/ ${d.getMonth() + 1}/ ${d.getDate()}` 
+            document.getElementById("time").innerHTML = `Hour ${d.getHours()}/ ${"Minutes",d.getMinutes() + 1}/ ${d.getSeconds()}`
+
+        }
+        showDate();
+          
+        setInterval(()=>{
+            console.log("this is called after 1s");
+            showDate();
+        },1000)
+
+        setTimeout(()=>{
+            console.log("this is called after 5s")
+        },5000)
+
 
 
 
